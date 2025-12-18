@@ -1,0 +1,67 @@
+# ===============================
+# Altium Designer / Altium Pro
+# ===============================
+
+# Thư mục sinh tự động
+History/
+__Previews/
+__Recycled/
+__Output/
+Project Logs/
+*.LOG
+
+# File lock / tạm
+*.lck
+*.bak
+*.tmp
+*.temp
+*.err
+
+# File cache
+*.Cache
+*.Preview
+*.PcbDocPreview
+*.SchDocPreview
+
+# Output Gerber / NC Drill / Pick&Place
+*.gbr
+*.GBR
+*.pho
+*.apr
+*.art
+*.drd
+*.drl
+*.tap
+*.csv
+*.txt
+*.pos
+*.rep
+
+# CAM / Manufacturing
+CAM/
+Fabrication/
+Assembly/
+
+# Altium user settings (theo từng máy)
+*.PrjPcbStructure
+*.Workspace
+*.DsnWrk
+*.PCBPreview
+*.SchPreview
+*.CmpLibPreview
+*.PcbLibPreview
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# ===============================
+# Không ignore các file QUAN TRỌNG
+# (để nhắc bạn)
+# ===============================
+!*.PrjPcb
+!*.SchDoc
+!*.PcbDoc
+!*.PcbLib
+!*.SchLib
+!*.IntLib
